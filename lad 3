@@ -1,0 +1,10 @@
+	String fristname="sachin";
+		String middlename=" Ramesh";
+		String lastname=" Tendulkar";
+		String name =fristname.concat(middlename).concat(lastname);
+		System.out.println("Name is:" + name);
+		System.out.println("Lenth of name  is: " + name.length());
+		System.out.println("substing of name is: " + name.substring(7,13));
+	}
+
+}
