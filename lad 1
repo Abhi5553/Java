@@ -1,9 +1,4 @@
-package Datatype;
-
-public class data {
-
-	public static void main(String[] args) {
-		System.out.println("Hello World");
+System.out.println("Hello World");
 		System.out.println("S.No.It Data Type\t Size");
 		System.out.println("1\t\t Bytes\t\t\t" + Byte.SIZE);
 		System.out.println("2\t\t Short\t\t\t" + Short.SIZE);
