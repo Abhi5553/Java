@@ -1,8 +1,8 @@
 class Size Of DataTypes/
 public static void main(Stringl] args) {
 System.out.println("Hello World");
-System.out.println("S.No.It Data Typelt Size");
-System.out.println("1tlt Byteltlt\*" + Byte.SIZE);
+System.out.println("S.No.It Data Type\t Size");
+System.out.println("1\t\t Bytes\t\t\t" + Byte.SIZE);
 System.out.println("2\t\t Short\t\t\t" + Short.SIZE);
 System.out.println("3\t\t Integer\t\t" + Integer.SIZE);
 System.out.println("4\t\t Float\t\t\t" + Float.SIZE);
