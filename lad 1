@@ -1,11 +1,15 @@
-class Size Of DataTypes/
-public static void main(Stringl] args) {
-System.out.println("Hello World");
-System.out.println("S.No.It Data Type\t Size");
-System.out.println("1\t\t Bytes\t\t\t" + Byte.SIZE);
-System.out.println("2\t\t Short\t\t\t" + Short.SIZE);
-System.out.println("3\t\t Integer\t\t" + Integer.SIZE);
-System.out.println("4\t\t Float\t\t\t" + Float.SIZE);
-System.out.println("5\t\t Longlt\t\t" + Long.SIZE);
-System.out.println("6\t\t Double\t\t" + Double.SIZE);
-System.out.println("7\t\t Character\t\t" + Character.SIZE);
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		System.out.println("S.No.It Data Type\t Size");
+		System.out.println("1\t\t Bytes\t\t\t" + Byte.SIZE);
+		System.out.println("2\t\t Short\t\t\t" + Short.SIZE);
+		System.out.println("3\t\t Integer\t\t" + Integer.SIZE);
+		System.out.println("4\t\t Float\t\t\t" + Float.SIZE);
+		System.out.println("5\t\t Longlt\t\t" + Long.SIZE);
+		System.out.println("6\t\t Double\t\t" + Double.SIZE);
+		System.out.println("7\t\t Character\t\t" + Character.SIZE);
+
+	}
+
+}
