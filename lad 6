@@ -1,0 +1,32 @@
+public class Box {
+	double width;
+	double height;
+	double depth ;
+	Box()
+	{
+		width =12.7d;
+		height =15.0d;
+		depth =5.6d;
+	}
+	Box(double w, double h , double d)
+	{
+		width = w;
+		height = h;
+		depth = d;
+	}
+	double volume() {
+		return width*height*depth;
+	}
+}
+class main {
+	public static void main(String[] args) {
+		Box Box1 = new Box ();
+		Box Box2 = new Box (4.7d,8.5d,6.3d);
+		double vol;
+		vol = Box1.volume();
+		System.out.println("volume of Box1:" + vol);
+		vol =Box2.volume();
+		System.out.println("volume of Box2:" + vol);
+		
+	}
+}
