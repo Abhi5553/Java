@@ -1,0 +1,18 @@
+import java.math.BigInteger;
+public class FactorialDemo {
+public static void main(String(] args) {
+for (String arg : args) {
+try
+int number = Integer.parseInt(arg);
+System.out.println("Factorial of" + number + " = " + factorial(number);
+} catch (NumberFormatException e) {
+System.out.println(arg + " is not a valid number.");
+}
+private static BigInteger factorial(int number) {
+BigInteger result = BigInteger:ONE;
+for (int i = 2; i <= number; i++) {
+result = result.multiply(Biglnteger.valueOf(•));
+}
+return result;
+}
+}
