@@ -1,0 +1,22 @@
+import java.util.*;
+public class NullPointer_Exception{
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+System.out.printEnter a string: ");
+String input = scanner.nextLine(;
+try {
+if (input.isEmptyO) {
+input = null;
+}
+System.out.println("Length of the string: " + input.length();
+}
+catch (NullPointerException e) {
+System.out.println("A null pointer exception occurred.");
+}
+finally {
+System.out.println("
+scanner.close;
+-END OF PROGRAM—");
+}
+}
+}
