@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Car {
+public String name;
+public int miles;
+public Car(String name, int miles) {
+this.name = name;
+this.miles = miles;
+public void printDetails {
+System.out.println(namet" - "-miles);
+}
+}
+class Main {
+public static void main(Stringl] args) {
+Car cars] = {
+new Car("Tesla", 142000),
+new Car("BMW", 485000),
+new Car("Tata", 564000),
+new Car("Ford", 580000)
+for (Car car: cars)
+car.printDetails;
+}
+}
