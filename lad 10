@@ -1,0 +1,36 @@
+import java.applet.Applet;
+import java.awt.*;
+public class SumNumsInteractive extends Applet {
+TextField textl, text2;
+public void init()
+{
+textl = new TextField(10);
+text2 = new TextField(10); 
+textl.setText("0");
+text.set Text("0");
+add(text]);
+add(text2);
+}
+public void paint(Graphics g) {
+int num1 = 0;
+int num2 = 0;
+int sum;
+String s1, s2, s3;
+g.drawString("Input a number in each box ",
+, 10, 50);
+try {
+sl = textl.getText();
+num1 = Integer.parseInt(s1);
+s2 = text2.getText);
+num2 = Integer.parselnt(s2);
+}
+catch(Exception el)
+sum = num] + num2;
+String str = "THE SUM IS: "+String.valueOf(sum);
+g draw String (str, 100, 125);
+}
+public boolean action (Event ev, Object obj)
+repaint;
+return true;
+}
+}
